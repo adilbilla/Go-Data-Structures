@@ -31,7 +31,7 @@ func (l *SinglyLinkedList) Add(element interface{}) {
 }
 
 // deletes a single (first) occurrence of element from linked list
-func (l *SinglyLinkedList) Delete(element *interface{}) {
+func (l *SinglyLinkedList) Delete(element interface{}) {
 
 	traversalNode := &Node{Next: l.Head}
 	for traversalNode.Next != nil {
